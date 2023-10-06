@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "npm --prefix web start",
+    "postinstall": "npm i --prefix web"
+  },
+  "name": "ampdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

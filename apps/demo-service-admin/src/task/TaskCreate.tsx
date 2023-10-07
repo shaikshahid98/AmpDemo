@@ -13,6 +13,7 @@ export const TaskCreate = (props: CreateProps): React.ReactElement => {
       <SimpleForm>
         <BooleanInput label="Completed" source="completed" />
         <TextInput label="Text" source="text" />
+        <TextInput label="tmp" source="tmp" />
         <TextInput label="UID" source="uid" />
       </SimpleForm>
     </Create>

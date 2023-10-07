@@ -13,6 +13,7 @@ export const TaskEdit = (props: EditProps): React.ReactElement => {
       <SimpleForm>
         <BooleanInput label="Completed" source="completed" />
         <TextInput label="Text" source="text" />
+        <TextInput label="tmp" source="tmp" />
         <TextInput label="UID" source="uid" />
       </SimpleForm>
     </Edit>

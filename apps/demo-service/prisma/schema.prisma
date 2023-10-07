@@ -23,6 +23,7 @@ model Task {
   createdAt DateTime @default(now())
   id        String   @id @default(auto()) @map("_id") @db.ObjectId
   text      String
+  tmp       String?
   uid       String?
   updatedAt DateTime @updatedAt
 }

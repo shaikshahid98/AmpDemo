@@ -3,6 +3,7 @@ export type Task = {
   createdAt: Date;
   id: string;
   text: string;
+  tmp: string | null;
   uid: string | null;
   updatedAt: Date;
 };

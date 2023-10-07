@@ -61,6 +61,17 @@ class TaskWhereInput {
   @Field(() => StringNullableFilter, {
     nullable: true,
   })
+  tmp?: StringNullableFilter;
+
+  @ApiProperty({
+    required: false,
+    type: StringNullableFilter,
+  })
+  @Type(() => StringNullableFilter)
+  @IsOptional()
+  @Field(() => StringNullableFilter, {
+    nullable: true,
+  })
   uid?: StringNullableFilter;
 }
 

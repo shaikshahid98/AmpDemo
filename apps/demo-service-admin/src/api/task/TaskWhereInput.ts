@@ -6,5 +6,6 @@ export type TaskWhereInput = {
   completed?: BooleanNullableFilter;
   id?: StringFilter;
   text?: StringFilter;
+  tmp?: StringNullableFilter;
   uid?: StringNullableFilter;
 };
